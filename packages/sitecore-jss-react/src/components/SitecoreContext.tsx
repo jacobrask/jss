@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { ComponentFactory } from './sharedTypes';
 
 export interface SitecoreContextProps {
-  componentFactory: ComponentFactory;
+  componentFactory?: ComponentFactory;
   contextFactory?: SitecoreContextFactory;
   context?: any;
   [k: string]: any;
